@@ -21,13 +21,13 @@ This repository contains the code and project report for a Reinforcement Learnin
 - **Environment Setup and MDP:** Developed and trained an agent within a Markov Decision Process (MDP) using the SAC (Soft Actor-Critic) algorithm.
 - **Algorithm and Parameters:** Utilized SAC for continuous action spaces, emphasizing sample efficiency and off-policy learning.
 
-## Key Findings and Insights
+#### Key Findings and Insights
 
 - **Parameter Tuning Experiments:** Explored the impact of hyperparameters (e.g., learning rate, tau, sampled goals) on agent performance.
 - **Results Analysis:** Evaluated agent success rates, rewards, and convergence across different parameter settings.
 - **Visualizations:** Included graphs and figures illustrating agent performance and learning trends.
 
-## Experiments and Notebooks
+#### Experiments and Notebooks
 
 The project includes detailed experimental notebooks covering:
 - Default Parameter Training
