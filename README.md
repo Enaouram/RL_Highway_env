@@ -14,6 +14,9 @@ This repository contains the code and project report for a Reinforcement Learnin
 - **Implementing a Basic Agent:** Utilized Deep Q-Network (DQN) algorithm to train an agent, addressing challenges such as environment disparities and suboptimal learning.
 
 ### 2. Implementing an Agent in the Parking Environment
+....
+
+### 3. Implementing an Agent in the Parking Environment
 
 - **Environment Setup and MDP:** Developed and trained an agent within a Markov Decision Process (MDP) using the SAC (Soft Actor-Critic) algorithm.
 - **Algorithm and Parameters:** Utilized SAC for continuous action spaces, emphasizing sample efficiency and off-policy learning.
@@ -34,9 +37,7 @@ The project includes detailed experimental notebooks covering:
 
 Each notebook explores specific aspects of parameter tuning and performance analysis.
 
-## Conclusion
 
-The project highlighted the importance of parameter selection in reinforcement learning algorithms, emphasizing the need for careful optimization to balance performance gains and potential risks. The findings contribute to understanding how RL agents adapt and learn in complex environments.
 
 ---
 
