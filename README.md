@@ -16,7 +16,7 @@ This repository contains the code and project report for a Reinforcement Learnin
 ### 2.  Highway-v0 with Continuous Actions
 ....
 
-### 3. Implementing an Agent in the Parking Environment
+### 3. Implementing an Agent in the Parking Environment Parking-v0
 
 - **Environment Setup and MDP:** Developed and trained an agent within a Markov Decision Process (MDP) using the SAC (Soft Actor-Critic) algorithm.
 - **Algorithm and Parameters:** Utilized SAC for continuous action spaces, emphasizing sample efficiency and off-policy learning.
