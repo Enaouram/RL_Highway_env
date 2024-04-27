@@ -14,7 +14,22 @@ This repository contains the code and project report for a Reinforcement Learnin
 - **Implementing a Basic Agent:** Utilized Deep Q-Network (DQN) algorithm to train an agent, addressing challenges such as environment disparities and suboptimal learning.
 
 ### 2.  Highway-v0 with Continuous Actions
-....
+
+**Environment Setup and Initial Interaction:** We began by configuring the environment with a continuous action space and interfaced with it using Gymnasium API methods. Initial visualizations revealed the agent's struggle to stay on track when actions were randomly sampled.
+
+**Agent Training:** We employed the Deep Deterministic Policy Gradient (DDPG) algorithm due to its compatibility with continuous action spaces. Challenges included adapting the agent's output to a scalar format and resolving practical implementation issues. DDPG's actor-critic architecture facilitated policy learning and value estimation.
+
+**Key Classes and Their Roles:**
+•	DDPGagent: Central to the training process, encapsulating actor and critic networks, handling environment interaction, and updating networks using experiences.
+•	Actor: Policy network mapping states to actions.
+•	Critic: Assessing policy by calculating the value function.
+•	Memory: Replay buffer storing transitions for efficient learning.
+•	OUNoise: Implementing Ornstein-Uhlenbeck process for exploration.
+
+**Training Procedure and Performance:** Training was limited to 100 episodes due to time constraints. While improvements were observed, suboptimal behaviors persisted, indicating the need for extended training and hyperparameter optimization. Visualizations demonstrated the evolution of agent performance.
+
+**Comparison with Discrete Environment:** We contrasted continuous and discrete action spaces in terms of control complexity, learning difficulty, convergence, stability, exploration, realism, and algorithm suitability.
+
 
 ### 3. Implementing an Agent in the Parking Environment Parking-v0
 
