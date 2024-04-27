@@ -13,7 +13,7 @@ This repository contains the code and project report for a Reinforcement Learnin
 - **Understanding the Environment:** Initial exploration of the "Highway" environment, including state representation, reward structure, and available actions.
 - **Implementing a Basic Agent:** Utilized Deep Q-Network (DQN) algorithm to train an agent, addressing challenges such as environment disparities and suboptimal learning.
 
-### 2. 
+### 2.  Highway-v0 with Continuous Actions
 ....
 
 ### 3. Implementing an Agent in the Parking Environment
