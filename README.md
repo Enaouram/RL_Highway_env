@@ -20,11 +20,12 @@ This repository contains the code and project report for a Reinforcement Learnin
 **Agent Training:** We employed the Deep Deterministic Policy Gradient (DDPG) algorithm due to its compatibility with continuous action spaces. Challenges included adapting the agent's output to a scalar format and resolving practical implementation issues. DDPG's actor-critic architecture facilitated policy learning and value estimation.
 
 **Key Classes and Their Roles:**
-•	DDPGagent: Central to the training process, encapsulating actor and critic networks, handling environment interaction, and updating networks using experiences.
-•	Actor: Policy network mapping states to actions.
-•	Critic: Assessing policy by calculating the value function.
-•	Memory: Replay buffer storing transitions for efficient learning.
-•	OUNoise: Implementing Ornstein-Uhlenbeck process for exploration.
+
+-	DDPGagent: Central to the training process, encapsulating actor and critic networks, handling environment interaction, and updating networks using experiences.
+- Actor: Policy network mapping states to actions.
+- Critic: Assessing policy by calculating the value function.
+- Memory: Replay buffer storing transitions for efficient learning.
+- OUNoise: Implementing Ornstein-Uhlenbeck process for exploration.
 
 **Training Procedure and Performance:** Training was limited to 100 episodes due to time constraints. While improvements were observed, suboptimal behaviors persisted, indicating the need for extended training and hyperparameter optimization. Visualizations demonstrated the evolution of agent performance.
 
